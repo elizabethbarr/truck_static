@@ -1,0 +1,140 @@
+
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>Where the Truck</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117139921-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-117139921-1');
+    </script>
+
+    <link rel="icon" type="image/png" href="https://s17.postimg.cc/innld6xhb/foodtruck200.png" alt="Where the Truck food truck finder on Alexa"/>
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Open+Sans:400,400i,700" rel="stylesheet">
+    <!-- build:css(.tmp) styles/main.css -->
+    {% load static %}
+   <link rel= "stylesheet" href ={% static "app/styles/main.css"%}>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="../images/wherethetruck.png" width="50" height="50" alt="Where the Truck the Alexa food truck directory"></a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li style="margin-left: -5%"><a href="#">Where the Truck</a></li>
+        <li><a href="howitworks">How It Works</a></li>
+        <li><a href="faqs">FAQs</a></li>
+        <li><a href="pricing">Pricing</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup">Sign Up</a></li>
+        <li><a href="login"><strong>Log In</strong></a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+<div class="press-container">
+  <h3>Press</h3>
+    <h4 style="margin-top: 2%">Coming soon</h4>
+</div>
+
+<div class="footer-container">
+    <div class="row">
+      <div class="footer-content">
+        <div class="col-sm-4">
+          <div class="footer-left-top">
+            <div><strong>LOCATION</strong></div>
+            <div>
+              <span class="notlink">Made in </span>
+              <span><a class="orangelink" href="www.visitgreenvillesc.com/">#yeahthatgreenville</a></span>
+            </div>
+            <div class="notlink">
+              <span>Greenville, SC</span>
+            </div>
+            <div><a class="orangelink" href="https://www.google.com/maps/place/Greenville,+SC/@34.8332892,-82.4330432,12z/data=!3m1!4b1!4m5!3m4!1s0x88578f6662fa1105:0xd8aa9d77bf257696!8m2!3d34.8526176!4d-82.3940104">View on Map</a></div>
+          </div>
+          <div class="footer-left-middle">
+            <div><strong>EMAIL</strong></div>
+            <div><a class="graylink" href="mailto:truckyeah@wherethetruck.is">truckyeah@wherethetruck.is</a></div>
+          </div>
+          <div class="footer-left-bottom">
+            <div><strong>LEGAL</strong></div>
+            <div><a class="graylink" href="privacy">Privacy Policy</a></div>
+            <div><a class="graylink" href="termsconditions">Terms</a></div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="footer-middle-top">
+            <div><strong>POWERED BY</strong><a class="orangelink" href="https://www.bevlabs.xyz"> Bev Labs,</a></div>
+            <div>
+              <span class="notlink">an Amazon Alexa development partner</span>
+            </div>
+            <div><a class="orangelink" href="https://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Dalexa-skills&field-keywords=bev+labs">Giving your vision a voice</a></div>
+          </div>
+          <div class="footer-middle-bottom">
+            <div>&copy; 2018 Where the Truck. All Rights Reserved.</div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="footer-right-one">
+            <a class="orangelink" href="https://www.instagram.com/wherethetruckis"><i class="fab fa-instagram fa-lg"></i></a>
+            <span class="icon">
+              <a class="orangelink" href="https://www.twitter.com/wherethetruckis"><i class="fab fa-twitter fa-lg"></i></a>
+            </span> 
+            <span class="icon">
+              <a class="orangelink" href="https://www.facebook.com/wherethetruck/"><i class="fab fa-facebook-f fa-lg"></i></a>
+            </span>
+            <span class="icon">
+              <a class="orangelink" href="https://www.youtube.com/channel/UCFOp0my6C4l-NfvUWiUyExQ?view_as=subscriber"><i class="fab fa-youtube fa-lg"></i></a>
+            </span> 
+            <span class="icon">
+              <a class="orangelink" href="https://vimeo.com/user2376570"><i class="fab fa-vimeo-v fa-lg"></i></a>
+            </span>
+          </div>  
+          <div class="footer-right-two">
+            <div><a class="graylink" href="howitworks">How It Works</a></div>
+            <div><a class="graylink" href="faqs">FAQs</a></div>
+          </div>
+          <div class="footer-right-three">
+            <div><a class="graylink" href="help">Help</a></div>
+          </div>
+          <div class="footer-right-five">
+            <div><a class="graylink" href="https://merch.amazon.com/landing">Merch</a></div>
+          </div>            
+        </div>  
+      </div> 
+    </div> 
+  </div>  
